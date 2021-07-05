@@ -1,4 +1,5 @@
 'use strict';
+const package3 = require('@mkmandar123/test_package_2');
 
 module.exports = testPackage3;
 
