@@ -4,9 +4,11 @@
 //
 // console.log(package3Function());
 
-const pakcage1 = require('@mkmandar123/test_package_1');
+const package1 = require('@mkmandar123/test_package_1');
+const package3 = require('@mkmandar123/test_package_3');
 
-console.log(pakcage1());
+console.log(package1());
+console.log(package3());
 
 
 module.exports = () => {

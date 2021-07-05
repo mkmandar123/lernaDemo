@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "dependencies": {
+    "@mkmandar123/test_package_1": "^1.0.1",
+    "@mkmandar123/test_package_3": "^1.0.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
