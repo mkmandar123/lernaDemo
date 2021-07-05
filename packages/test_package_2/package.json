@@ -1,14 +1,14 @@
 {
   "name": "@mkmandar123/test_package_2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Running tests for package2\""
   },
   "dependencies": {
-    "@mkmandar123/test_package_1": "^1.0.5",
-    "@mkmandar123/test_package_3": "^1.0.1"
+    "@mkmandar123/test_package_1": "^1.0.7",
+    "@mkmandar123/test_package_3": "^1.0.7"
   },
   "keywords": [],
   "author": "",
