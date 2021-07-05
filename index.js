@@ -1,4 +1,3 @@
-// should print to console just by requiring the package
 const package1 = require('@mkmandar123/test_package_1');
 
 var express = require('express');
@@ -7,10 +6,8 @@ var app = express();
 
 var api = new ParseServer({
     databaseURI: 'mongodb://localhost:27017/dev', // Connection string for your MongoDB database
-    // cloud: './cloud/main.js', // Path to your Cloud Code
     appId: 'myAppId',
     masterKey: 'myMasterKey', // Keep this key secret!
-    // fileKey: 'optionalFileKey',
     serverURL: 'localhost:1337/api/parse' // Don't forget to change to https if needed
 });
 
@@ -25,5 +22,3 @@ app.use('/api/parse', api);
 app.listen(1337, function() {
     console.log('parse-server-example running on port 1337.');
 });
-
-// console.log(package1());
