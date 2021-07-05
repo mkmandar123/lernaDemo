@@ -1,3 +1,4 @@
-module.exports = (() => {
-    console.log('>>>>>>>>>package 1 is working');
-})()
+exports.setupCloudFunctions = function () {
+    console.log('>>>>>>>>>setting up cloud function testFunction');
+    Parse.Cloud.define('testFunction', () => 'function working from package!!');
+};
